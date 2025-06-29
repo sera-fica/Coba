@@ -1,0 +1,130 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Adopsi</title>
+
+  <!-- Sama seperti index -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+  />
+  <link rel="stylesheet" href="style2.css" />
+</head>
+
+<section class="adopt-form container" id="adopt">
+  <div class="heading">
+    <h2>Adopsi Terumbu Karang</h2>
+    <p>
+      Ayo jadi bagian dari penyelamatan laut! Daftarkan bisnis Anda untuk
+      mengadopsi fragmen terumbu karang dan tunjukkan komitmen Anda terhadap
+      lingkungan.
+    </p>
+  </div>
+
+  <form action="submit-adoption.php" method="POST" class="form-box">
+    <div class="input-group">
+      <label for="businessName">Nama Bisnis</label>
+      <input
+        type="text"
+        id="businessName"
+        name="businessName"
+        placeholder="Contoh: PT Laut Lestari"
+        required
+      />
+    </div>
+
+    <div class="input-group">
+      <label for="email">Alamat Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email@bisnis.com"
+        required
+      />
+    </div>
+
+    <div class="input-group">
+      <label for="industry">Jenis Usaha</label>
+      <input
+        type="text"
+        id="industry"
+        name="industry"
+        placeholder="Contoh: Restoran, Tour & Travel, dll."
+        required
+      />
+    </div>
+
+    <div class="input-group">
+      <label for="fragments">Jumlah Fragmen yang Diadopsi</label>
+      <input
+        type="number"
+        id="fragments"
+        name="fragments"
+        min="1"
+        placeholder="Contoh: 10"
+        required
+      />
+    </div>
+
+    <div class="input-group">
+      <label for="message">Pesan atau Harapan</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Pesan dari bisnis Anda..."
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn">Daftar Sekarang</button>
+  </form>
+</section>
+
+<section class="Properties container" id="Properties">
+  <div class="heading">
+    <span>Recent</span>
+    <h2>Our Featured Properties</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+
+  <div class="properties-container container">
+    <!-- Properti Box -->
+    <div class="box">
+      <img src="img/1m.png" alt="The Palace" />
+      <h3>Rp100.000</h3>
+      <div class="content">
+        <div class="text">
+          <h3>Raja Ampat</h3>
+          <p>Indonesia</p>
+        </div>
+        <div class="Icon">
+          <i class="bx bx-area"><span>1 m²</span></i>
+          <i class="bx bx-user"><span>20</span></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Duplikat sesuai kebutuhan -->
+    <div class="box">
+      <img src="img/1m.png" alt="The Palace" />
+      <h3>Rp100.000</h3>
+      <div class="content">
+        <div class="text">
+          <h3>Raja Ampat</h3>
+          <p>Indonesia</p>
+        </div>
+        <div class="Icon">
+          <i class="bx bx-area"><span>1 m²</span></i>
+          <i class="bx bx-user"><span>20</span></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tambah box lainnya sesuai kebutuhan -->
+  </div>
+</section>

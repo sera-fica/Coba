@@ -1,0 +1,202 @@
+/* === GLOBAL === */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5faff;
+  color: #003049;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 1rem;
+}
+
+/* === Gambar Khusus Halaman Login === */
+.login-page img {
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+/* === SECTION: ADOPT FORM === */
+.adopt-form {
+  padding: 2.5rem 1rem;
+  background-color: #f5faff;
+  border-top: 2px solid #0077b6;
+  border-bottom: 2px solid #0077b6;
+}
+
+.adopt-form .heading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.adopt-form .heading h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #003049;
+}
+
+.adopt-form .heading p {
+  font-size: 0.95rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* FORM */
+.adopt-form .form-box {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.adopt-form .input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.adopt-form .input-group label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #003049;
+  font-size: 0.95rem;
+}
+
+.adopt-form .input-group input,
+.adopt-form .input-group textarea {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.adopt-form .input-group input:focus,
+.adopt-form .input-group textarea:focus {
+  border-color: #0077b6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 119, 182, 0.2);
+}
+
+.adopt-form .btn {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.adopt-form .btn:hover {
+  background-color: #005f87;
+}
+
+/* === SECTION: PROPERTIES === */
+.properties {
+  padding: 2.5rem 1rem;
+  background: #ffffff;
+}
+
+.properties .heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.properties .heading span {
+  color: #0077b6;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.properties .heading h2 {
+  font-size: 1.75rem;
+  margin-top: 0.3rem;
+}
+
+.properties .heading p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.3rem;
+}
+
+.properties-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.properties-container .box {
+  background: #f8f9fa;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.properties-container .box:hover {
+  transform: translateY(-6px);
+}
+
+.properties-container .box img {
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.properties-container .box h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0077b6;
+  margin: 0.8rem 1rem 0;
+}
+
+.properties-container .box .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  align-items: center;
+}
+
+.properties-container .content .text h3 {
+  font-size: 0.95rem;
+  margin: 0;
+  color: #003049;
+}
+
+.properties-container .content .text p {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
+
+.properties-container .content .icon {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.properties-container .content .icon i {
+  font-size: 1.1rem;
+  color: #0077b6;
+}
+
+.properties-container .content .icon span {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: 0.2rem;
+}
